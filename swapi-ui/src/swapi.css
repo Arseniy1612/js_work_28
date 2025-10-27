@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(180deg, #0b1220 0%, #071122 40%, #f8f9fa 100%);
+  color: #fff;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1100px;
+}
+
+.card {
+  border: none;
+  border-radius: 0.75rem;
+}
+
+.card .card-body {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+h1,
+h2,
+h5 {
+  color: #fff;
+}
+
+.text-muted {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.btn-primary {
+  box-shadow: 0 4px 12px rgba(2, 6, 23, 0.5);
+}
+
+/* Стиль для картинок */
+.card-img-top {
+  object-fit: cover;
+  height: 160px;
+}
+
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 180px;
+  }
+}
